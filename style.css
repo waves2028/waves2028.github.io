@@ -1,1 +1,95 @@
 
+/* General page layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f7fb;
+    color: #263445;
+    line-height: 1.6;
+}
+
+/* Conference banner */
+header {
+    background-color: #12345a;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 10px 0;
+}
+
+/* Conference logo */
+.logo {
+    display: block;
+    width: 220px;
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto 15px;
+}
+
+/* Navigation menu */
+nav {
+    background-color: white;
+    padding: 18px 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    color: #12345a;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #147d92;
+    text-decoration: underline;
+}
+
+/* Main page content */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #12345a;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background-color: #147d92;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #12345a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Mobile-friendly navigation */
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 7px 10px;
+    }
+}
+
